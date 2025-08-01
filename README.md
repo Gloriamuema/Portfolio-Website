@@ -18,10 +18,6 @@ It showcases my projects, skills, and experience in an elegant and responsive la
 ## 🛠️ Technologies Used
 
 - **HTML5** – structure and semantic markup
-- **CSS3** – styling, animations, and responsive layout
-- **Font Awesome** (optional) – for icons
-- **Google Fonts** (optional) – for typography
-
-## 📂 Project Structure
+- **CSS3** – styling, animations, and responsive layout- 
 
 
