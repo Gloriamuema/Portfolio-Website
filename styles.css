@@ -1,5 +1,17 @@
+.container {
+  max-width: 100%;
+  width: 100%; /* or use % for relative sizing */
+  box-sizing: border-box;
+}
+
 /* General Styling */
-/* Ensure correct scaling on mobile */
+@charset "UTF-8";
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 meta[name="viewport"] {
   content: "width=device-width, initial-scale=1";
 }
