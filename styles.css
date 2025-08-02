@@ -1,9 +1,19 @@
 /* General Styling */
+
+::-webkit-textfield-decoration-container
+::-webkit-textfield-decoration-container {
+    text-decoration: none;
+    text-decoration-color: transparent;
+    text-decoration-thickness: 0;
+    text-decoration-style: solid;
+
+}
+
 body {
     font-family: Arial, sans-serif;
     margin: 5px;
     padding: 10px;
-    background-color: #f2f6f8;
+    background-color: #d4f9f0;
     /*background: #f4f4f4;
     color: #333;
     justify-content: center;*/
@@ -21,7 +31,7 @@ profile {
 
 /* Navigation */
 header {
-    background: #02025f;
+    background: #003e16;
     color: white;
     padding: 5px 10px;
     text-align: center;
