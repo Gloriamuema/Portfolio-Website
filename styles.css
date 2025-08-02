@@ -14,7 +14,51 @@
 }
 meta[name="viewport"] {
   content: "width=device-width, initial-scale=1";
+
 }
+html {
+    font-size: 16px; /* Base font size */
+}
+/* Reset some default styles */
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Remove default text decoration */
+a {
+    text-decoration: none;
+    color: inherit; /* Inherit color from parent */
+}
+/* Remove default list styles */
+ul,
+ol {
+    list-style: none;
+}
+/* Remove default form styles */
+input,
+textarea,
+select,
+button {
+    font: inherit; /* Inherit font styles */
+    color: inherit; /* Inherit color from parent */
+    border: none; /* Remove default border */
+    background: transparent; /* Remove default background */
+}
+/* Remove default focus outline */
+:focus {
+    outline: none; /* Remove focus outline */
+}
+/* Remove default scrollbar styles */
+::-webkit-scrollbar {
+    width: 0; /* Hide scrollbar */
+    height: 0; /* Hide scrollbar */
+}
+/* Remove default text decoration for text fields */
+
+
 
 
 
