@@ -1,5 +1,5 @@
 # Portfolio-Website
-# 🌐 Personal Portfolio Website
+# Personal Portfolio Website
 
 This is my **personal portfolio website** designed using **HTML5** and **CSS3**.  
 It showcases my projects, skills, and experience in an elegant and responsive layout.
@@ -9,11 +9,14 @@ It showcases my projects, skills, and experience in an elegant and responsive la
 - Fully **responsive design** for desktop and mobile
 - **Clean and modern UI** using only HTML & CSS
 - Sections for:
-  - **About Me**
-  - **Projects / Portfolio**
+  - **Profile**
+  - **Overview/about me**
+  - **Projects**
+  - **Education**
+  - **Certifications**
+  - - **Curriculum vitae**
   - **Skills**
   - **Contact Form**
-- Lightweight and fast loading (no frameworks required)
 
 ## 🛠️ Technologies Used
 
