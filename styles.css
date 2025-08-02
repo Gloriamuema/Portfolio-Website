@@ -13,7 +13,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 5px;
     padding: 10px;
-    background-color: #d4f9f0;
+    background-color: #d7f8e8;
     /*background: #f4f4f4;
     color: #333;
     justify-content: center;*/
@@ -31,7 +31,7 @@ profile {
 
 /* Navigation */
 header {
-    background: #003e16;
+    background: #1e2721;
     color: white;
     padding: 5px 10px;
     text-align: center;
