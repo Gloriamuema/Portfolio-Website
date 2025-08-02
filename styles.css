@@ -4,58 +4,6 @@ meta[name="viewport"] {
   content: "width=device-width, initial-scale=1";
 }
 
-/* Reset basics */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-  font-family: Arial, sans-serif;
-}
-
-/* Container grid - Mobile first */
-.container {
-  display: grid;
-  grid-template-areas:
-    "header"
-    "nav"
-    "content"
-    "sidebar"
-    "footer";
-  gap: 1rem;
-  padding: 1rem;
-}
-
-.site-header { grid-area: header; background: #4CAF50; padding: 1rem; color: white; }
-.nav         { grid-area: nav; background: #f0f0f0; padding: 1rem; }
-.content     { grid-area: content; background: #fff; padding: 1rem; }
-.sidebar     { grid-area: sidebar; background: #ddd; padding: 1rem; }
-.footer      { grid-area: footer; background: #333; color: white; padding: 1rem; }
-
-/* Tablet and above */
-@media (min-width: 768px) {
-  .container {
-    grid-template-columns: 2fr 1fr;
-    grid-template-areas:
-      "header header"
-      "nav nav"
-      "content sidebar"
-      "footer footer";
-  }
-}
-
-/* Desktop and above */
-@media (min-width: 1024px) {
-  .container {
-    grid-template-columns: 200px 1fr 250px;
-    grid-template-areas:
-      "header header header"
-      "nav content sidebar"
-      "footer footer footer";
-  }
-}
 
 
 ::-webkit-textfield-decoration-container
@@ -63,12 +11,11 @@ body {
     text-decoration: none;
     text-decoration-color: transparent;
     text-decoration-thickness: 0;
-    text-decoration-style: solid;
 
 }
 
 body {
-    font-size: clamp(1rem, 2.5vw, 1.5rem);
+    font-size: 16px;
 
     font-family: Arial, sans-serif;
     margin: 5px;
