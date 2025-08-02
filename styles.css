@@ -3,18 +3,29 @@ body {
     font-family: Arial, sans-serif;
     margin: 5px;
     padding: 10px;
-    background: #f4f4f4;
+    background-color: #f2f6f8;
+    /*background: #f4f4f4;
     color: #333;
-    justify-content: center;
+    justify-content: center;*/
+}
+/* Styling profile and styling the image */
+profile {
+    margin-top: 10px;
+}
+.profile-pic {
+    width: 100px; /* Adjusts size as needed */
+    height: 100px;
+    border-radius: 5%; /* Makes the image to look like a circle */
+    border: 2px solid #333; /* Adding the border */
 }
 
 /* Navigation */
 header {
-    background: #5a16ef;
+    background: #02025f;
     color: white;
     padding: 5px 10px;
     text-align: center;
-    margin: 5px ;
+    margin: 0;
     justify-content: center;
 
 }
