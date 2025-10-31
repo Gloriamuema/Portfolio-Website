@@ -1,105 +1,24 @@
-/* General Styling */
+.skill-item {
+  @apply p-4 bg-white dark:bg-gray-700 rounded-xl shadow-sm hover:shadow-md transition;
+}
 
-::-webkit-textfield-decoration-container
-::-webkit-textfield-decoration-container {
-    text-decoration: none;
-    text-decoration-color: transparent;
-    text-decoration-thickness: 0;
-    text-decoration-style: solid;
+.project-card {
+  @apply bg-gray-50 dark:bg-gray-700 p-6 rounded-xl shadow hover:shadow-2xl transform hover:-translate-y-1 transition duration-300;
+}
 
+.contact-link {
+  @apply text-indigo-600 dark:text-indigo-400 hover:underline;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {
-    font-family: Arial, sans-serif;
-    margin: 5px;
-    padding: 10px;
-    background-color: #d7f8e8;
-    /*background: #f4f4f4;
-    color: #333;
-    justify-content: center;*/
-}
-/* Styling profile and styling the image */
-profile {
-    margin-top: 10px;
-}
-.profile-pic {
-    width: 100px; /* Adjusts size as needed */
-    height: 100px;
-    border-radius: 5%; /* Makes the image to look like a circle */
-    border: 2px solid #333; /* Adding the border */
+  font-family: "Inter", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial;
 }
 
-/* Navigation */
-header {
-    background: #1e2721;
-    color: white;
-    padding: 5px 10px;
-    text-align: center;
-    margin: 0;
-    justify-content: center;
-
-}
-
-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-nav ul {
-    list-style: none;
-    display: flex;
-    gap: 15px;
-    text-align: center;
-
-}
-
-nav ul li a {
-    color: white;
-    text-decoration: none;
-}
-
-/* Section Styling */
-section {
-    padding: 5px;
-    text-align: fixed;
-    margin: 5px;
-    justify-content: center;
-    
-}
-
-#home {
-    background: #f4f4f4;
-    justify-content: center;
-}
-
-#about {
-    background: #f4f4f4;
-    padding: 10px;
-    justify-content: center;
-
-}
-
-#contact {
-    background: #f4f4f4;
-    padding: auto;
-}
-
-/* Buttons */
-.btn {
-    display: inline-block;
-    padding: 5px 15px;
-    background: #333;
-    color: white;
-    text-decoration: none;
-    border-radius: 5px;
-    max-width: 5px;
-}
-
-/* Footer */
-footer {
-    background: #222;
-    color: white;
-    padding: 15px;
-    text-align: center;
+.container {
+  padding-left: 1rem;
+  padding-right: 1rem;
 }

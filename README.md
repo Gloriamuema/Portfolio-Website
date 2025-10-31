@@ -21,6 +21,9 @@ It showcases my projects, skills, and experience in an elegant and responsive la
 ## 🛠️ Technologies Used
 
 - **HTML5** – structure and semantic markup
-- **CSS3** – styling, animations, and responsive layout- 
+- **CSS3** – styling, animations, and responsive layout-
+
+- To access the portfolio website please visit site
+**https://gloriamuema.github.io/Portfolio-Website/**
 
 

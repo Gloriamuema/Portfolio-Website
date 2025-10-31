@@ -1,153 +1,171 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio Website</title>
-    <link rel="stylesheet" href="styles.css">
-
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gloria Muema | ICT Manager | ERP & Digital Transformation Expert</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="style.css" />
 </head>
-
-    <header>
-        <h1>My Portfolio Website </h1>
-       
-    
-        </header>
-        <header>
-        <nav>
-            <ul>
-                <li><a href="#Profile">Profile</a></li>
-                <li><a href="#Overview">Overview</a></li>
-                <li><a href="#Education">Education </a></li>
-                <li><a href="#Skills">Skills</a></li>
-                <li><a href="#Certifications">Certification </a></li>
-                 <li><a href="#projects">Projects</a></li>
-                <li><a href="#Curriculum vitae">CV</a></li>
-                <li><a href="#Socials">Socials</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-<body> 
-    <section id="Profile">
-        <img src="profile.jpg" alt="Profile Picture" class="profile-pic">
-        <h2>Profile</h2>
-        <p>Welcome to my portfolio! My name is Gloria Muema.
-        <p>Explore my work and get to know me better!</p>
-        </section>
-    <section id="Overview">   
-        <h2>Overview</h2>
-        <p>Hello! Welcome to my page! I am a passionate Software Engineer
-             and Data Engineer with a strong foundation in web development and data-driven solutions.  
-I specialize in building responsive and user-friendly websites using HTML, CSS, 
-JavaScript, and Python, as well as designing and managing robust databases with MySQL and PostgreSQL.</p>
-<p>My journey in software engineering has equipped me with a diverse skill set,
-     including front-end and back-end development, database management, 
-     and data analysis.  
-I have experience in creating dynamic web applications, optimizing performance,
- and ensuring security best practices in the field of data engineering, I am proficient in tools and technologies.</p> 
-<p>The tools include Advanced Excel, Power BI, Tableau, Python (Pandas, NumPy), 
-and SQL for data acquisition, transformation, analysis, and visualization.  
-My work focuses on turning raw data into actionable insights, optimizing workflows, 
-and supporting decision-making processes.</p>
-<p> I have a strong analytical mindset and a commitment to continuous learning, 
-    I am always eager to take on new challenges and expand my expertise.  
-I believe in the power of collaboration and enjoy working in teams
- to bring innovative ideas to life.</p>
-<p>I thrive in solving complex problems, learning emerging technologies,
- and delivering innovative solutions that create real-world impact.  
-When I’m not working on code or data, I enjoy exploring new tech trends,
- mentoring others, and continuously improving my skill set.</p>
-        <p>Feel free to explore my projects and get in touch!</p>
-        </section>
-</header>
-    
-    <section id="Education">
-    <h2>Education</h2>
-    <ul>
-        <li>Master of Science in Computer Science -
-    Masinde Muliro University of Science and Technology (Ongoing)</li>
-        <li>Bachelor of Science in Computer Science - 
-            Masinde Muliro University of Science and technology (Graduated 2022)</li>
+<body class="bg-gray-50 text-gray-800 dark:bg-gray-900 dark:text-gray-200 transition-colors duration-500">
+  <!-- Header -->
+  <header class="bg-white dark:bg-gray-800 shadow-md fixed w-full top-0 z-50 transition-colors duration-500">
+    <div class="container mx-auto flex justify-between items-center p-4">
+      <h1 class="text-xl font-semibold text-indigo-700 dark:text-indigo-400">Gloria Muema</h1>
+      <nav>
+        <ul class="flex space-x-6 text-sm font-medium">
+          <li><a href="#home" class="hover:text-indigo-600 dark:hover:text-indigo-400">Home</a></li>
+          <li><a href="#about" class="hover:text-indigo-600 dark:hover:text-indigo-400">About</a></li>
+          <li><a href="#skills" class="hover:text-indigo-600 dark:hover:text-indigo-400">Skills</a></li>
+          <li><a href="#projects" class="hover:text-indigo-600 dark:hover:text-indigo-400">Projects</a></li>
+          <li><a href="#contact" class="hover:text-indigo-600 dark:hover:text-indigo-400">Contact</a></li>
         </ul>
-   </section>
- <section id="Skills">
-        <h2>Skills</h2>
-        <ul>
-            <li>Programming Languages: Python, JavaScript, R</li>
-            <li>Web Development: HTML, CSS, Bootstrap, React</li>
-            <li>Backend Development: Node.js</li>
-            <li>Database Management: MySQL, PostgreSQL</li>
-            <li>Data Analysis: Pandas, NumPy, Matplotlib</li>
-            <li>Data Visualization: Power BI, Tableau</li>
-            <li>Machine Learning: Scikit-learn, TensorFlow</li>
-            <li>Version Control: Git, GitHub</li>
-            <li>Tools: Jupyter Notebook, Visual Studio Code</li>
-            <li>Data Engineering: ETL Processes, Data Warehousing</li>
-            <li>Cloud Platforms: AWS, Azure</li>
-            <li>Soft Skills: Problem-solving, Teamwork, Communication</li>
-        </ul>   
-    </section>
-       <section id="Certifications">
-        <h2>Certifications</h2>
-        <ul> 
-        <li>Software Engineering - 
-            Power Learn Project</li>
-        <li>Data Engineering -
-            Cisco Networking Academy</li>
-        <li>Data Analysis -
-            Power Learn Project</li>
-        <li>Python Programming -
-            Power Learn Project</li>
-        <li>Web Development -
-            Power Learn Project</li>
-        <li>Data Visualization -
-            Luxe Dev Academy</li>
-        <li>Data Science -
-            Luxe Dev Academy</li>
-        <li>Data Analytics -
-            Cisco Networking Academy</li>
-        <li>Advanced Excel -
-            Sigma Africa Academy </li>
-        </ul>
-        </section>
+      </nav>
+      <button id="theme-toggle" class="p-2 rounded-lg bg-indigo-600 text-white hover:bg-indigo-700 transition">
+        🌙
+      </button>
+    </div>
+  </header>
 
-    <section id="Curriculum vitae">
-        <h2>Curriculum Vitae</h2>
-        <p>Download my CV: <a href="cv.pdf" target="_blank">Download CV</a></p>
+  <!-- Hero Section -->
+  <section id="home" class="pt-28 pb-16 text-center bg-gradient-to-b from-indigo-50 to-white dark:from-gray-800 dark:to-gray-900">
+    <div class="container mx-auto">
+      <h2 class="text-4xl md:text-5xl font-bold text-gray-900 dark:text-gray-100">Gloria Muema</h2>
+      <p class="mt-4 text-lg text-gray-600 dark:text-gray-300">ICT Manager | ERP & Digital Transformation Expert</p>
+      <p class="mt-2 text-gray-500 italic dark:text-gray-400">Driving digital transformation through modern ERP and cloud solutions.</p>
+      <a href="#projects" class="mt-8 inline-block px-6 py-3 bg-indigo-600 text-white rounded-lg hover:bg-indigo-700 transition">View My Work</a>
+    </div>
+  </section>
 
+  <!-- About Section -->
+<section id="about" class="py-16 bg-white dark:bg-gray-800">
+  <div class="container mx-auto max-w-4xl text-center">
+    <h3 class="text-3xl font-semibold mb-6">About Me</h3>
+
+    <!-- Summary Title -->
+    <h4 class="text-xl font-medium text-indigo-700 dark:text-indigo-400 mb-4">Professional Summary</h4>
+
+    <!-- Refined Summary Text -->
+    <p class="text-gray-600 dark:text-gray-300 leading-relaxed text-justify">
+      I am a versatile IT Support Engineer, Data Analyst, and aspiring Data Scientist with over three years of experience
+      supporting ICT systems, analyzing data, and developing technology-driven solutions. I specialize in Python, SQL,
+      PostgreSQL, Excel, and R, transforming complex datasets into actionable insights that inform strategic decision-making.
+    </p>
+
+    <p class="text-gray-600 dark:text-gray-300 leading-relaxed text-justify mt-4">
+      My background includes hands-on experience in configuring ERP and Health Information Systems, troubleshooting diverse
+      technical challenges, and ensuring secure, reliable system performance across healthcare, insurance, and development
+      sectors.
+    </p>
+
+    <p class="text-gray-600 dark:text-gray-300 leading-relaxed text-justify mt-4">
+      In addition to analytics, I bring strong software development expertise in web design and development using HTML, CSS,
+      JavaScript, Bootstrap, and WordPress, along with practical knowledge of APIs and system integration.
+    </p>
+
+    <p class="text-gray-600 dark:text-gray-300 leading-relaxed text-justify mt-4">
+      I have successfully combined my technical knowledge with excellent communication and leadership skills — training
+      healthcare professionals, mentoring students, and fostering a culture of problem-solving and digital innovation.
+    </p>
+
+    <p class="text-gray-600 dark:text-gray-300 leading-relaxed text-justify mt-4">
+      Passionate about digital transformation, I strive to leverage data, software engineering, and ICT infrastructure to
+      deliver impactful, scalable, and sustainable solutions that drive organizational growth and efficiency.
+    </p>
+  </div>
 </section>
 
-    <section id="projects">
-        <h2>Projects</h2>
-        <ul>
-            <li>Project 1: <a href="https://github.com/Gloriamuema/PANDAS" target="_blank">Data Science Project</a></li>
-            <li>Project 2:  <a href="https://github.com/Gloriamuema/HappyBirtdayCard" target="_blank">Android Project</a></li>
-            <li>Project 3: <a href="https://github.com/Gloriamuema/RProjects" target="_blank">R Programming Project</a></li>
-        </ul>
-    </section>
 
-    <section id="Socials">
-        <h2>Socials</h2>
-        <ul>
-            <li><a href="https://www.linkedin.com/in/gloria-muema-a11b51323/" target="_blank">LinkedIn</a></li>
-            <li><a href="https://github.com/Gloriamuema" target="_blank">GitHub</a></li>
-            <li><a href="facebook.com" target="_blank">Facebook</a></li>
-            <li><a href="https://twitter.com" target="_blank">Twitter</a></li>
-        </ul>
-    </section>
-    
-    <section id="contact">
-        <h2>Contact Me</h2>
-        <p>Email:gloriamuema98@gmail.commitment</p>
-        <p>Phone: +254 790 131 601 </p>
-        <p>Feel free to reach out for collaborations or inquiries!</p>
-        <p>Follow me on social media:</p>
+  <!-- Skills Section -->
+<section id="skills" class="py-16 bg-gray-50 dark:bg-gray-900">
+  <div class="container mx-auto text-center">
+    <h3 class="text-3xl font-semibold mb-6">Skills</h3>
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 gap-6 max-w-4xl mx-auto text-left">
+      <div class="skill-item">ICT Infrastructure Support & ERP Systems (Microsoft Dynamics 365, KenyaEMR, CPIMS)</div>
+      <div class="skill-item">Data Analysis & Visualization (Python, SQL, PostgreSQL, R, Tableau, Power BI, Excel)</div>
+      <div class="skill-item">Web Development (HTML, CSS, JavaScript, Bootstrap, WordPress)</div>
+      <div class="skill-item">API Knowledge & System Integration</div>
+      <div class="skill-item">Networking, VPN, Remote Desktop & Cybersecurity Best Practices</div>
+      <div class="skill-item">Project Management, Training & Stakeholder Engagement</div>
+      <div class="skill-item">Cloud Platforms (AWS, Azure), Windows, Linux, MacOS</div>
+      <div class="skill-item">Leadership, Communication, and Problem-Solving</div>
+    </div>
+  </div>
+</section>
 
-        <footer>
-        <p>&copy; 2023 My Portfolio. All rights reserved.</p>
-        <p>Designed by Gloria Muema</p>
-        <p>Last updated: July 2025</p>
-        </footer>
-</body> 
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="py-16 bg-white dark:bg-gray-800">
+    <div class="container mx-auto text-center">
+      <h3 class="text-3xl font-semibold mb-10">Projects</h3>
+      <div class="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
+        <!-- Project Cards -->
+        <div class="project-card">
+          <h4 class="text-lg font-semibold mb-2">Project One</h4>
+          <p class="text-gray-600 dark:text-gray-300 text-sm mb-4">Heart-disease-prediction Project
+A Streamlit-based machine learning web application that predicts the likelihood of heart disease based on patient health indicators. The model uses Logistic Regression for prediction and provides personalized feedback and recommendations for heart health improvement..</p>
+          <a href="https://github.com/Gloriamuema/Heart-disease-prediction" class="text-indigo-600 dark:text-indigo-400 text-sm font-medium hover:underline">View Details →</a>
+        </div>
+        <div class="project-card">
+          <h4 class="text-lg font-semibold mb-2">Project Two</h4>
+          <p class="text-gray-600 dark:text-gray-300 text-sm mb-4">Duck Farm Website
+
+A modern, responsive website for a duck farm, designed to showcase farm operations, products, and services. The site provides visitors with essential information about the farm, including duck breeds, farming practices, product availability, and contact options. Built with React, Tailwind CSS, and Node.js, it is optimized for both desktop and mobile users.</p>
+          <a href="https://github.com/Gloriamuema/Duck-Farm-Website" class="text-indigo-600 dark:text-indigo-400 text-sm font-medium hover:underline">View Details →</a>
+        </div>
+        <div class="project-card">
+          <h4 class="text-lg font-semibold mb-2">Project Three</h4>
+          <p class="text-gray-600 dark:text-gray-300 text-sm mb-4">E-Commerce Database Management System
+A complete E-Commerce Store Management application built with Python (Streamlit) and MySQL, featuring interactive dashboards, real-time data visualization, and a simple admin interface for managing users, products, orders, and inventory.</p>
+          <a href="https://github.com/Gloriamuema/E-Commerce-Database" class="text-indigo-600 dark:text-indigo-400 text-sm font-medium hover:underline">View Details →</a>
+        </div>
+        <div class="project-card">
+          <h4 class="text-lg font-semibold mb-2">Project Four</h4>
+          <p class="text-gray-600 dark:text-gray-300 text-sm mb-4">ReGreen an AI-Powered Reforestation Platform
+ReGreen is an AI + GIS web platform that identifies the best areas for reforestation and recommends native tree species suited for each land type.
+It combines geospatial mapping, AI-driven environmental insights, and a dashboard for visualization to support sustainable reforestation planning.
+
+</p>
+          <a href="https://github.com/Gloriamuema/ReGreen" class="text-indigo-600 dark:text-indigo-400 text-sm font-medium hover:underline">View Details →</a>
+        </div>
+        <div class="project-card">
+          <h4 class="text-lg font-semibold mb-2">Project Five</h4>
+          <p class="text-gray-600 dark:text-gray-300 text-sm mb-4">Web Scraping Project – Kenya Job Listings
+
+A Python project to scrape, clean, and classify job listings in Kenya from various company websites. This project extracts job data, processes it, and categorizes listings into Tech, Finance, or Other, providing structured outputs for analysis and reporting.</p>
+          <a href="https://github.com/Gloriamuema/Web-scrapping-Project" class="text-indigo-600 dark:text-indigo-400 text-sm font-medium hover:underline">View Details →</a>
+        </div>
+        <div class="project-card">
+          <h4 class="text-lg font-semibold mb-2">Project Six</h4>
+          <p class="text-gray-600 dark:text-gray-300 text-sm mb-4">AI Study Buddy
+AI Study Buddy is a Flask-based web application that helps students turn their notes into flashcards, track study progress, and review effectively.
+It uses Flask + MySQL on the backend and supports features like user accounts, flashcards, and study sessions.</p>
+          <a href="https://github.com/Gloriamuema/AI_Study_Buddy" class="text-indigo-600 dark:text-indigo-400 text-sm font-medium hover:underline">View Details →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-16 bg-gray-50 dark:bg-gray-900">
+    <div class="container mx-auto text-center">
+      <h3 class="text-3xl font-semibold mb-6">Get in Touch</h3>
+      <p class="text-gray-600 dark:text-gray-300 mb-4">I’d love to connect! Feel free to reach out for collaborations or opportunities.</p>
+      <div class="space-x-4">
+        <a href="gloriamuema2021@gmail.com" class="contact-link">Email</a>
+        <a href="#" class="https://www.linkedin.com/in/gloria-muema-a11b51323/">LinkedIn</a>
+        <a href="#" class="https://github.com/Gloriamuema">GitHub</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-white dark:bg-gray-800 text-center py-6 text-sm text-gray-500 dark:text-gray-400 border-t dark:border-gray-700">
+    © <span id="year"></span> Gloria Muema. All Rights Reserved.
+  </footer>
+
+  <script src="main.js"></script>
+</body>
 </html>
